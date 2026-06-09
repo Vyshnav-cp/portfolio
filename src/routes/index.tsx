@@ -57,7 +57,7 @@ const STATS = [
   { label: "Projects", value: "3" },
   { label: "Internships", value: "2" },
   { label: "Certifications", value: "1" },
-  { label: "CGPA", value: "6.96" },
+  { label: "CGPA", value: "6.92" },
 ];
 
 const SKILLS: { group: string; icon: ReactNode; items: string[] }[] = [
@@ -103,7 +103,7 @@ const EXPERIENCE = [
 ];
 
 const EDUCATION = [
-  { degree: "B.Tech in Computer Science & Engineering", school: "Mar Athanasius College of Engineering", period: "2023 – 2026", score: "CGPA: 6.96" },
+  { degree: "B.Tech in Computer Science & Engineering", school: "Mar Athanasius College of Engineering", period: "2023 – 2026", score: "CGPA: 6.92" },
   { degree: "Diploma in Computer Science", school: "Seethi Sahib Memorial Polytechnic College", period: "2020 – 2023", score: "CGPA: 8.58" },
   { degree: "Higher Secondary (Science)", school: "GHSS Niramaruthur", period: "2018 – 2020", score: "80.5%" },
 ];
@@ -335,7 +335,7 @@ function Hero() {
             <a href="https://github.com/Vyshnav-cp" target="_blank" rel="noreferrer" aria-label="GitHub" className="transition hover:text-primary">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com/in/vyshnav-c-p" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition hover:text-primary">
+            <a href="https://www.linkedin.com/in/vyshnav-c-p-3a9195257/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition hover:text-primary">
               <Linkedin className="h-5 w-5" />
             </a>
             <a href="mailto:vyshnavcp2026@gmail.com" aria-label="Email" className="transition hover:text-primary">
@@ -655,13 +655,14 @@ function Contact() {
                 github.com/Vyshnav-cp
               </span>
             </a>
-            <a href="https://linkedin.com/in/vyshnav-c-p" target="_blank" rel="noreferrer" className="group flex items-center gap-4">
-              <span className="grid h-11 w-11 place-items-center rounded-xl border border-border bg-card/40 text-primary transition group-hover:border-primary/60">
+            <a href="https://www.linkedin.com/in/vyshnav-c-p-3a9195257/" target="_blank" rel="noreferrer" className="group flex items-center gap-4">
+              <div className="rounded-full border border-primary/20 bg-primary/10 p-2 group-hover:bg-primary/20">
                 <Linkedin className="h-5 w-5" />
-              </span>
-              <span className="font-mono text-sm text-muted-foreground transition group-hover:text-foreground">
-                linkedin.com/in/vyshnav-c-p
-              </span>
+              </div>
+              <div>
+                <p className="text-sm font-medium">LinkedIn</p>
+                <p className="text-xs text-muted-foreground">linkedin.com/in/vyshnav-c-p-3a9195257</p>
+              </div>
             </a>
           </div>
         </Reveal>
@@ -729,11 +730,8 @@ function Footer() {
           <a href="https://github.com/Vyshnav-cp" target="_blank" rel="noreferrer" aria-label="GitHub" className="transition hover:text-primary">
             <Github className="h-4 w-4" />
           </a>
-          <a href="https://linkedin.com/in/vyshnav-c-p" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition hover:text-primary">
+          <a href="https://www.linkedin.com/in/vyshnav-c-p-3a9195257/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition hover:text-primary">
             <Linkedin className="h-4 w-4" />
-          </a>
-          <a href="mailto:vyshnavcp2026@gmail.com" aria-label="Email" className="transition hover:text-primary">
-            <Mail className="h-4 w-4" />
           </a>
         </div>
       </div>
